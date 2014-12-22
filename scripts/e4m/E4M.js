@@ -1,3 +1,11 @@
+/* ------------------------------------
+  Plugin Developed by Leonardo Paiva
+  Author: Leonardo Souza Paiva | contato@leonardopaiva.com | www.leonardopaiva.com
+  https://github.com/leonardopaiva/
+------------------------------------ */
+/* Purpose: start all E4M plugins */
+//------------------------------
+
 var E4M = E4M || {};
 
 E4M = {

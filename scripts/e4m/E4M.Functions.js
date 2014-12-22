@@ -1,5 +1,11 @@
-//Início de E4M.Function
-//funções comuns do framework
+/* ------------------------------------
+  Plugin Developed by Leonardo Paiva
+  Author: Leonardo Souza Paiva | contato@leonardopaiva.com | www.leonardopaiva.com
+  https://github.com/leonardopaiva/
+------------------------------------ */
+/* Component: Custom Select */
+/* Purpose: provide general functions to e4m plugins */
+//------------------------------
 var E4M  = E4M || {};
 
 E4M.Functions = {
