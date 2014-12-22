@@ -7,6 +7,10 @@ Provide a custom form select
 ### Contains
 Customized select, using ul / li structure, so will be easy to make a customized css. Any change on ul select, will reflect on its correspondent input hidden value.
 
+### Example
+http://leonardopaiva.com/plugin/e4m/custom-select/
+
+
 ### Instructions
 ```
 git clone git://github.com/leonardopaiva/E4M.CustomSelect.git
