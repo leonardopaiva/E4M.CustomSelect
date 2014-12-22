@@ -6,6 +6,7 @@
 /* Component: Custom Select */
 /* Purpose: provide a customized select */
 /* Created 10/10/2014 */
+/* Version 1.0 */
 /* updates to-do */
 //------------------------------
 var E4M = E4M || {};
