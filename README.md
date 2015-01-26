@@ -78,7 +78,7 @@ HTML
 
 ### E4M.CustomSelect.setActiveItemComplement
 - Is a function called anytime you change the select value
-- It does nothing, but if you want something diferent to happen when select value changes, you can use it just replacing it (see example above, you can do that on your main js module).
+- It does nothing, but if you want something diferent to happen when select value changes, you can use it just replacing it (see example below, you can do that on your main js module).
 
 Example
 ```js
