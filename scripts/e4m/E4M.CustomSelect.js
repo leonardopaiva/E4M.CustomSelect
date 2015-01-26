@@ -57,6 +57,7 @@ E4M.CustomSelect = {
     if(typeof(value) != 'undefined' && !$(target).hasClass('active')){
       this.setActiveItem(target);
       this.setInputHidden(target);
+      this.setActiveItemComplement();
     }
   },
 
@@ -66,8 +67,6 @@ E4M.CustomSelect = {
     $(parent).find("li.active")
       .html(this._text)
       .attr('data-value',this._text);
-
-    this.setActiveItemComplement();
   },
 
   setInputHidden: function(target){

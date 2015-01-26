@@ -74,9 +74,18 @@ HTML
 - This html will generate 3 selects
 - The value of "data-name" on ul, must be equal to the name from its correspondent input hidden
 - The input hidden value will be update everytime that the "ul.fake-select li.active" changes
-- If you want something to happen, everytime the select changes, just implement the E4M.CustomSelect.setActiveItemComplement function. Example: E4M.CustomSelect.setActiveItemComplement = function(){      
-   $("#form-recipe").submit(); /* when clicked will submit the form #form-recipe */
-}
+
+
+### E4M.CustomSelect.setActiveItemComplement
+- Is a function called anytime you change the select value
+- It does nothing, but if you want something diferent to happen when select value changes, you can use it just replacing it (see example above, you can do that on your main js module).
+
+Example
+```js
+  E4M.CustomSelect.setActiveItemComplement = function(){      
+	   $("#form-recipe").submit(); /* when clicked will submit the form #form-recipe */
+	}
+```
 
 ###Copyright
 
