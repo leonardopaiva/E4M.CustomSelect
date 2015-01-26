@@ -67,13 +67,14 @@ HTML
 		<input type="hidden" name="recipe" value="0">
 		<input type="hidden" name="type-recipe" value="0">
 		<input type="hidden" name="time" value="0">
-		<!-- <input type="submit" value="buscar"> -->
+		<!-- <input type="submit" value="search"> -->
 	</form>
 ```
 ### OBS
 - This html will generate 3 selects
 - The value of "data-name" on ul, must be equal to the name from its correspondent input hidden
 - The input hidden value will be update everytime that the "ul.fake-select li.active" changes
+- you can add the input hidden to your own form
 
 
 ### E4M.CustomSelect.setActiveItemComplement
